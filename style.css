@@ -767,7 +767,7 @@
 }
 .pricing__grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: var(--space-5);
   align-items: start;
 }
@@ -873,7 +873,7 @@
   color: #fff;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   .pricing__grid {
     grid-template-columns: 1fr;
     max-width: 420px;
